@@ -34200,7 +34200,7 @@ body.Transfering #TransferSplashScreen {
 }
 
 .footer_overlay {
-   background: url(/statics/footer_bg.png);
+   background: url(/assets/footer_bg.png);
    animation: scroll 100s linear infinite;
    width: 100%;
    height: auto
