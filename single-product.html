@@ -5,7 +5,6 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./styles/style.css">
    <link rel=manifest href=manifest.json>
    <base href= />
    <meta charset=utf-8>
@@ -18,27 +17,8 @@
    <link rel=icon type=image/png sizes=32x32 href=statics/icons/favicon-32x32.png>
    <link rel=icon type=image/png sizes=96x96 href=statics/icons/favicon-96x96.png>
    <link rel=icon type=image/ico href=statics/icons/favicon.ico>
-   <script>(function (w, d, s, l, i) {
-         w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-               new Date().getTime(), event: 'gtm.js'
-         }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-               'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-T4QV989');</script>
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HC8RLLZNMX"></script>
-   <script>window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'G-HC8RLLZNMX');</script>
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17220707-1"></script>
-   <script>window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'UA-17220707-1', { 'page_path': '/new-page' });</script>
-   <link href=/css/app.6f4078ca.css rel=stylesheet>
+  
+  
    <link rel=manifest href=manifest.json>
    <meta name=theme-color content=#df0f20>
    <meta name=apple-mobile-web-app-capable content=yes>
@@ -51,106 +31,15 @@
    <link rel=mask-icon href=statics/icons/safari-pinned-tab.svg color=#df0f20>
    <meta name=msapplication-TileImage content=statics/icons/ms-icon-144x144.png>
    <meta name=msapplication-TileColor content=#000000>
-
+   <link rel="stylesheet" href="css/chunk-common.2ce4d863.css">
+   <link rel="stylesheet" href="css/12.f0cdb94c.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/custom.css">
    <title>Document</title>
 </head>
 
-<body class="desktop no-touch body--light" cz-shortcut-listen="true" style=""><noscript><iframe
-         src="https://www.googletagmanager.com/ns.html?id=GTM-T4QV989" height=0 width=0
-         style=display:none;visibility:hidden></iframe></noscript>
-   <script>var defaultAvatarImage = 'data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="rgb(5, 57, 106)" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg>'
-      setTimeout(() => {
-         window.location.reload()
-      }, 3600000)
-      var mvp = document.getElementById('viewPort');
-      if (screen && screen.width < 761) {
-         mvp.setAttribute('content', 'width=600, user-scalable=no')
-      }
-      if (window) {
-         window.onresize = function (x) {
-            if (screen.width < 761 || window.innerWidth < 761) {
-               mvp.setAttribute('content', 'width=600, user-scalable=no')
-            } else {
-               mvp.setAttribute('content', 'width=1380, user-scalable=no')
-            }
-         }
-      }
-
-      const urlSearchParams = new URLSearchParams(window.location.search);
-      const params = Object.fromEntries(urlSearchParams.entries());
-
-      if (!!true && !!true && !(params.test === '')) {
-         window.pwa_update_event = document.createEvent('Event')
-         window.pwa_update_event.initEvent('pwaupdate', true, true)
-         function sendLog(logtype, message, stack, statusCode, xhrConfig, xhrResponse, xhrMethod) {
-            try {
-               if (!message) message = ' ';
-               if (!stack) stack = ' ';
-               if (!statusCode) statusCode = ' ';
-               if (!xhrConfig) xhrConfig = ' ';
-               if (!xhrResponse) xhrResponse = ' ';
-               if (!xhrMethod) xhrMethod = ' ';
-               var clientinfo = {
-                  timeOpened: new Date(),
-                  timezone: (new Date()).getTimezoneOffset() / 60,
-                  pageon: window.location.pathname,
-                  referrer: document.referrer,
-                  previousSites: history.length,
-                  browserName: navigator.appName,
-                  browserEngine: navigator.product,
-                  browserVersion1a: navigator.appVersion,
-                  browserVersion1b: navigator.userAgent,
-                  browserLanguage: navigator.language,
-                  browserOnline: navigator.onLine,
-                  browserPlatform: navigator.platform,
-                  javaEnabled: navigator.javaEnabled(),
-                  dataCookiesEnabled: navigator.cookieEnabled,
-                  dataCookies1: document.cookie,
-                  dataCookies2: decodeURIComponent(document.cookie.split(";")),
-                  sizeScreenW: screen.width,
-                  sizeScreenH: screen.height,
-                  sizeDocW: document.width,
-                  sizeDocH: document.height,
-                  sizeInW: innerWidth,
-                  sizeInH: innerHeight,
-                  sizeAvailW: screen.availWidth,
-                  sizeAvailH: screen.availHeight,
-                  scrColorDepth: screen.colorDepth,
-                  scrPixelDepth: screen.pixelDepth,
-               };
-               var _cookie = '; ' + clientinfo.dataCookies1;
-               var parts = _cookie.split(`; token=`);
-               var token = ' ';
-               if (parts.length === 2) token = parts.pop().split(';').shift();
-               _cookie = clientinfo.dataCookies1;
-               var xhr = new XMLHttpRequest();
-               xhr.open("POST", 'https://microservice.alldigitall.ir/log', true);
-               xhr.setRequestHeader('Content-Type', 'application/json');
-               xhr.send(JSON.stringify({
-                  type: logtype,
-                  url: location.href,
-                  message: JSON.stringify(message, null, '\t'),
-                  stack: JSON.stringify(stack, null, '\t'),
-                  status: JSON.stringify(statusCode, null, '\t'),
-                  config: JSON.stringify(xhrConfig, null, '\t'),
-                  response: JSON.stringify(xhrResponse, null, '\t'),
-                  method: xhrMethod,
-                  clientinfo: JSON.stringify(clientinfo, null, '\t'),
-                  cookie: _cookie,
-                  token: token,
-                  agent: navigator.userAgent,
-                  screensize: screen.width + 'x' + screen.height
-               }));
-               clientinfo = '';
-            } catch (e) { }
-         }
-         function silentErrorHandler(e) {
-            sendLog('js', e.message, e.stack, ' ', ' ', ' ', ' ')
-            return true;
-         }
-         window.onerror = silentErrorHandler;
-         console.error = silentErrorHandler;
-      }</script>
+<body class="desktop no-touch body--light" cz-shortcut-listen="true" style=""> 
+  
    <div id="q-app">
       <div class="q-layout q-layout--standard" style="min-height: 389px; overflow: hidden;"><!----><!---->
          <header class="q-header q-layout__section--marginal absolute-top bg-white text-black q-pt-lg q-pb-none"
@@ -158,25 +47,28 @@
             <div class="full-width HeaderContainer q-py-none q-px-md q-ma-none">
                <div class="row items-center vertical-middle Header">
                   <div class="col-xs-7  col-sm-4">
-                     <div class="HeaderBtns text-allblue"><!----><!----><!----><button tabindex="0" type="button"
-                           role="button"
+                     <div class="HeaderBtns text-allblue">
+                        <!---->
+                        <!---->
+                        <!----><button tabindex="0" type="button" role="button"
                            class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle text-allblue q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span
                               class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
-                                 class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
-                                    aria-hidden="true" role="img"
-                                    class="material-icons q-icon notranslate on-left">shopping_cart</i><span
-                                    class="block">سبد خرید</span></span></span></button><!----><span><button
-                              tabindex="0" type="button" role="button"
+                                 class="q-btn__content text-center col items-center q-anchor--skip justify-center row">
+                                 <i role="img" class="bi bi-basket3 notranslate on-left"></i>
+                                 <span class="block px-2">سبد خرید</span></span></span></button>
+                        <!----><span><button tabindex="0" type="button" role="button"
                               class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                                  class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                                     class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
                                        aria-hidden="true" role="presentation" class="fa fa-user q-icon notranslate"
                                        style="font-size: 1.415em;">
-                                    </i><span>ورود/ثبت‌نام</span></span></span></button><!----><!----></span>
+                                    </i><span>ورود/ثبت‌نام</span></span></span></button>
+                           <!---->
+                           <!---->
+                        </span>
                         <div class="q-drawer-container  bg-white" dir="ltr" style="display: none;">
                            <div aria-hidden="true" class="q-drawer__opener fixed-right"></div>
-                           <div aria-hidden="true" class="fullscreen q-drawer__backdrop hidden"
-                              style="background-color: rgba(0, 0, 0, 0);"></div>
+                           <div aria-hidden="true" class="fullscreen q-drawer__backdrop "></div>
                            <aside
                               class="q-drawer q-drawer--right q-layout--prevent-focus fixed q-drawer--on-top q-drawer--mobile q-drawer--top-padding"
                               style="width: 450px; transform: translateX(450px);">
@@ -197,7 +89,10 @@
                                                    class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
                                                       aria-hidden="true" role="img"
                                                       class="fa fa-user q-icon notranslate on-left"> </i><span
-                                                      class="block">ورود/ثبت‌نام</span></span></span></button><!----><!----></span>
+                                                      class="block">ورود/ثبت‌نام</span></span></span></button>
+                                          <!---->
+                                          <!---->
+                                       </span>
                                     </div>
                                     <hr role="separator" aria-orientation="horizontal"
                                        class="q-separator q-separator q-separator--horizontal" style="height: 3px;">
@@ -205,10 +100,12 @@
                                        <div role="tabpanel" class="q-panel scroll">
                                           <div class="q-tab-panel">
                                              <div class="q-list" dir="rtl">
-                                                <div class="q-scrollarea" style="height: 234px;">
+                                                <div class="q-scrollarea" style="height: 582px;">
                                                    <div class="scroll relative-position fit hide-scrollbar">
-                                                      <div class="absolute full-width"><!---->
-                                                         <div class="SideMenuItem"><!---->
+                                                      <div class="absolute full-width">
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
                                                             <div tabindex="0"
                                                                class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                                dir="rtl" header-class="">
@@ -219,42 +116,66 @@
                                                                <div
                                                                   class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                                   <i aria-hidden="true" role="presentation"
-                                                                     class="material-icons q-icon notranslate text-grey"
-                                                                     style="font-size: 1.8em;">navigate_before</i>
+                                                                     class="bi bi-chevron-double-left"
+                                                                     style="font-size: 1.4em;"></i>
                                                                </div>
-                                                            </div><!----><!----><!---->
-                                                         </div><!---->
-                                                         <div class="SideMenuItem"><!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
                                                             <div tabindex="0"
                                                                class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                                dir="rtl" header-class="">
                                                                <div tabindex="-1" class="q-focus-helper"></div>
                                                                <div
                                                                   class="q-item__section column q-item__section--main justify-center">
-                                                                  جدیدترین‌ها</div><!---->
-                                                            </div><!----><!----><!---->
-                                                         </div><!----><!---->
-                                                         <div class="SideMenuItem"><!---->
+                                                                  جدیدترین‌ها</div>
+                                                               <!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
                                                             <div tabindex="0"
                                                                class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                                dir="rtl" header-class="">
                                                                <div tabindex="-1" class="q-focus-helper"></div>
                                                                <div
                                                                   class="q-item__section column q-item__section--main justify-center">
-                                                                  جستجوی پیشرفته</div><!---->
-                                                            </div><!----><!----><!---->
-                                                         </div><!---->
-                                                         <div class="SideMenuItem"><!---->
+                                                                  جستجوی پیشرفته</div>
+                                                               <!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
                                                             <div tabindex="0"
                                                                class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                                dir="rtl" header-class="">
                                                                <div tabindex="-1" class="q-focus-helper"></div>
                                                                <div
                                                                   class="q-item__section column q-item__section--main justify-center">
-                                                                  مرکز پشتیبانی</div><!---->
-                                                            </div><!----><!----><!---->
-                                                         </div><!---->
-                                                         <div class="SideMenuItem"><!---->
+                                                                  مرکز پشتیبانی</div>
+                                                               <!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
                                                             <div tabindex="0"
                                                                class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                                dir="rtl" header-class="">
@@ -265,141 +186,214 @@
                                                                <div
                                                                   class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                                   <i aria-hidden="true" role="presentation"
-                                                                     class="material-icons q-icon notranslate text-grey"
-                                                                     style="font-size: 1.8em;">navigate_before</i>
+                                                                     class="bi bi-chevron-double-left"
+                                                                     style="font-size: 1.4em;"></i>
                                                                </div>
-                                                            </div><!----><!----><!---->
-                                                         </div><!---->
-                                                         <div class="SideMenuItem"><!---->
-                                                            <div tabindex="0"
-                                                               class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
-                                                               dir="rtl" header-class="">
-                                                               <div tabindex="-1" class="q-focus-helper"></div>
-                                                               <div
-                                                                  class="q-item__section column q-item__section--main justify-center">
-                                                                  تماس با ما</div><!---->
-                                                            </div><!----><!----><!---->
-                                                         </div><!---->
-                                                         <div class="SideMenuItem"><!---->
-                                                            <div tabindex="0"
-                                                               class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
-                                                               dir="rtl" header-class="">
-                                                               <div tabindex="-1" class="q-focus-helper"></div>
-                                                               <div
-                                                                  class="q-item__section column q-item__section--main justify-center">
-                                                                  درباره آل‌دیجیتال</div><!---->
-                                                            </div><!----><!----><!---->
-                                                         </div><!---->
-                                                         <div class="SideMenuItem"><!---->
-                                                            <div tabindex="0"
-                                                               class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
-                                                               dir="rtl" header-class="">
-                                                               <div tabindex="-1" class="q-focus-helper"></div>
-                                                               <div
-                                                                  class="q-item__section column q-item__section--main justify-center">
-                                                                  بخش خرید و فروش کاربران allBay</div><!---->
-                                                            </div><!----><!----><!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
                                                          </div>
-                                                         <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-                                                      </div><!---->
-                                                   </div><!---->
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
+                                                            <div tabindex="0"
+                                                               class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
+                                                               dir="rtl" header-class="">
+                                                               <div tabindex="-1" class="q-focus-helper"></div>
+                                                               <div
+                                                                  class="q-item__section column q-item__section--main justify-center">
+                                                                  تماس با ما</div>
+                                                               <!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
+                                                            <div tabindex="0"
+                                                               class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
+                                                               dir="rtl" header-class="">
+                                                               <div tabindex="-1" class="q-focus-helper"></div>
+                                                               <div
+                                                                  class="q-item__section column q-item__section--main justify-center">
+                                                                  درباره آل‌دیجیتال</div>
+                                                               <!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <div class="SideMenuItem">
+                                                            <!---->
+                                                            <div tabindex="0"
+                                                               class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
+                                                               dir="rtl" header-class="">
+                                                               <div tabindex="-1" class="q-focus-helper"></div>
+                                                               <div
+                                                                  class="q-item__section column q-item__section--main justify-center">
+                                                                  بخش خرید و فروش کاربران allBay</div>
+                                                               <!---->
+                                                            </div>
+                                                            <!---->
+                                                            <!---->
+                                                            <!---->
+                                                         </div>
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                         <!---->
+                                                      </div>
+                                                      <!---->
+                                                   </div>
+                                                   <!---->
                                                    <div aria-hidden="true"
                                                       class="q-scrollarea__bar q-scrollarea__bar--v absolute-right q-scrollarea__bar--invisible">
                                                    </div>
                                                    <div aria-hidden="true"
                                                       class="q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible"
-                                                      style="height: 50px; top: 0px;"></div>
+                                                      style="height: 50px;"></div>
                                                 </div>
                                              </div>
                                           </div>
                                        </div>
                                     </div>
-                                    <div><!----></div>
+                                    <div>
+                                       <!---->
+                                    </div>
                                  </div>
                               </div>
                            </aside>
                         </div>
-                        <div><!----></div>
+                        <div>
+                           <!---->
+                        </div>
                      </div>
                   </div>
-                  <div class="col-sm-4 col-xs-12" style="">
-                     <div><label for="f_4ce4fefc-f619-4307-9959-7febc246f45e"
+                  <div class="col-sm-4 col-xs-12">
+                     <div><label for="f_4af661b6-4078-46b6-a74d-358da94eaa49"
                            class="q-field row no-wrap items-start q-select q-field--auto-height q-select--with-input q-select--without-chips q-select--single q-field--filled q-field--rounded q-field--labeled q-validation-component full-width Search SearchBox">
                            <div class="q-field__inner relative-position col self-stretch">
                               <div tabindex="-1" class="q-field__control relative-position row no-wrap">
                                  <div class="q-field__prepend q-field__marginal row no-wrap items-center"><i
-                                       aria-hidden="true" role="presentation"
-                                       class="q-pr-none q-mr-none material-icons q-icon notranslate" style="">search</i>
-                                 </div>
+                                       aria-hidden="true" role="presentation" class="bi bi-search"></i></div>
                                  <div
                                     class="q-field__control-container col relative-position row no-wrap q-anchor--skip">
                                     <div class="q-field__native row items-center"><input type="search"
-                                          id="f_4ce4fefc-f619-4307-9959-7febc246f45e" tabindex="0" autocomplete="off"
+                                          id="f_4af661b6-4078-46b6-a74d-358da94eaa49" tabindex="0" autocomplete="off"
                                           class="q-field__input q-placeholder col SearchInput"></div>
-                                    <div class="q-field__label no-pointer-events absolute ellipsis">جستجو در آل‌دیجیتال
-                                    </div>
+                                    <div class="q-field__label no-pointer-events absolute ellipsis">جستجو در
+                                       آل‌دیجیتال</div>
                                  </div>
-                                 <div class="q-field__append q-field__marginal row no-wrap items-center"></div><!---->
+                                 <div class="q-field__append q-field__marginal row no-wrap items-center"></div>
+                                 <!---->
                               </div>
                            </div>
-                        </label><!----></div>
+                        </label>
+                        <!---->
+                     </div>
                   </div>
                   <div class="col-xs-5 col-sm-4 "><a href="/">
                         <div id="TopLogo" class="float-left"><img alt="فروشگاه آل‌دیجیتال"
                               src="statics/logo/alldigitall/main.svg" height="50"></div>
                      </a></div>
-               </div><!---->
+               </div>
+               <!---->
             </div>
             <div data-nosnippet="" class="row  text-allblue bg-white MainMenu q-my-sm" dir="rtl">
                <div class="col "><button tabindex="0" type="button" role="button"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
-                        class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
-                           class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
-                              aria-hidden="true" role="img"
-                              class="material-icons q-icon notranslate on-left">menu</i><span class="block">دسته‌بندی
-                              کالاها</span></span></span></button><!----><!----><!----><!----><a tabindex="0"
-                     type="button" href="/latest-products" role="link"
+                        class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip">
+                        <span
+                           class="q-btn__content text-center col items-center q-anchor--skip justify-center row openmenu">
+                           <i aria-hidden="true" role="img" class="bi bi-list"></i>
+                           <span class="block">دسته‌بندی کالاها</span>
+                        </span></span></button>
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!----><a tabindex="0" type="button" href="/latest-products" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
-                              class="block">جدیدترین‌ها</span></span></span></a><!----><!----><!----><!----><a
-                     tabindex="0" type="button" href="/search/advanced" role="link"
+                              class="block">جدیدترین‌ها</span></span></span></a>
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!----><a tabindex="0" type="button" href="/search/advanced" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
-                              class="block">جستجوی پیشرفته</span></span></span></a><!----><!----><!----><a tabindex="0"
-                     type="button" href="/account/ticket" role="link"
+                              class="block">جستجوی پیشرفته</span></span></span></a>
+                  <!---->
+                  <!---->
+                  <!----><a tabindex="0" type="button" href="/account/ticket" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
-                              class="block">مرکز پشتیبانی</span></span></span></a><!----><!----><!----><!----><button
-                     tabindex="0" type="button" role="button"
+                              class="block">مرکز پشتیبانی</span></span></span></a>
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!----><button tabindex="0" type="button" role="button"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"
                      dropdown-icon="none" no-icon-animation=""><span class="q-focus-helper"></span><span
                         class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
-                              class="block">راهنما و مقررات</span><!----></span></span></button><!----><!----><a
-                     tabindex="0" type="button" href="/contactus" role="link"
+                              class="block">راهنما و مقررات</span>
+                           <!---->
+                        </span></span></button>
+                  <!---->
+                  <!----><a tabindex="0" type="button" href="/contactus" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
-                              class="block">تماس با ما</span></span></span></a><!----><!----><!----><a tabindex="0"
-                     type="button" href="/aboutus" role="link"
+                              class="block">تماس با ما</span></span></span></a>
+                  <!---->
+                  <!---->
+                  <!----><a tabindex="0" type="button" href="/aboutus" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
-                              class="block">درباره آل‌دیجیتال</span></span></span></a><!----><!----><!----><a
-                     tabindex="0" type="button" href="/allbay/" role="link"
+                              class="block">درباره آل‌دیجیتال</span></span></span></a>
+                  <!---->
+                  <!---->
+                  <!----><a tabindex="0" type="button" href="/allbay/" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span
                               class="block">بخش خرید و فروش کاربران
-                              allBay</span></span></span></a><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                              allBay</span></span></span></a>
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
                </div>
                <div class="q-drawer-container" dir="ltr">
                   <div aria-hidden="true" class="q-drawer__opener fixed-right"></div>
-                  <div aria-hidden="true" class="fullscreen q-drawer__backdrop hidden"
-                     style="background-color: rgba(0, 0, 0, 0);"></div>
+                  <div aria-hidden="true" class="fullscreen q-drawer__backdrop "></div>
                   <aside
                      class="q-drawer q-drawer--right q-layout--prevent-focus fixed q-drawer--on-top q-drawer--mobile q-drawer--top-padding"
                      style="width: 450px; transform: translateX(450px);">
@@ -409,8 +403,7 @@
                               class="q-btn q-btn-item non-selectable no-outline SideMenuClose q-btn--flat q-btn--rectangle text-white q-btn--actionable q-focusable q-hoverable q-btn--wrap"><span
                                  class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                                     class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
-                                       aria-hidden="true" role="img"
-                                       class="material-icons q-icon notranslate">close</i></span></span></button>
+                                       aria-hidden="true" role="img" class="bi bi-x"></i></span></span></button>
                            <div class="q-item q-item-type row no-wrap text-allblue" dir="rtl"><span><button tabindex="0"
                                     type="button" role="button"
                                     class="q-btn q-btn-item non-selectable no-outline LoginBtn q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span
@@ -419,7 +412,10 @@
                                           class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
                                              aria-hidden="true" role="img"
                                              class="fa fa-user q-icon notranslate on-left"> </i><span
-                                             class="block">ورود/ثبت‌نام</span></span></span></button><!----><!----></span>
+                                             class="block">ورود/ثبت‌نام</span></span></span></button>
+                                 <!---->
+                                 <!---->
+                              </span>
                            </div>
                            <hr role="separator" aria-orientation="horizontal"
                               class="q-separator q-separator q-separator--horizontal" style="height: 3px;">
@@ -427,10 +423,12 @@
                               <div role="tabpanel" class="q-panel scroll">
                                  <div class="q-tab-panel">
                                     <div class="q-list" dir="rtl">
-                                       <div class="q-scrollarea" style="height: 234px;">
+                                       <div class="q-scrollarea" style="height: 582px;">
                                           <div class="scroll relative-position fit hide-scrollbar">
-                                             <div class="absolute full-width"><!---->
-                                                <div class="SideMenuItem"><!---->
+                                             <div class="absolute full-width">
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -441,12 +439,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -457,12 +460,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -473,12 +481,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -489,12 +502,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -505,12 +523,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -521,12 +544,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -536,13 +564,16 @@
                                                          صوتی و تصویری</div>
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
-                                                         <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -553,12 +584,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -569,12 +605,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -585,12 +626,17 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                                <div class="SideMenuItem"><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="SideMenuItem">
+                                                   <!---->
                                                    <div tabindex="0"
                                                       class="q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable text-allblue Parent"
                                                       dir="rtl" header-class="">
@@ -601,70 +647,85 @@
                                                       <div
                                                          class="q-item__section column q-item__section--avatar q-item__section--side justify-center">
                                                          <i aria-hidden="true" role="presentation"
-                                                            class="material-icons q-icon notranslate text-grey"
-                                                            style="font-size: 1.8em;">navigate_before</i>
+                                                            class="bi bi-chevron-double-left"
+                                                            style="font-size: 1.4em;"></i>
                                                       </div>
-                                                   </div><!----><!----><!---->
-                                                </div><!---->
-                                             </div><!---->
-                                          </div><!---->
+                                                   </div>
+                                                   <!---->
+                                                   <!---->
+                                                   <!---->
+                                                </div>
+                                                <!---->
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          <!---->
                                           <div aria-hidden="true"
                                              class="q-scrollarea__bar q-scrollarea__bar--v absolute-right q-scrollarea__bar--invisible">
                                           </div>
                                           <div aria-hidden="true"
                                              class="q-scrollarea__thumb q-scrollarea__thumb--v absolute-right q-scrollarea__thumb--invisible"
-                                             style="height: 83px; top: 0px;"></div>
+                                             style="height: 513px; top: 0px;"></div>
                                        </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                           <div><!----></div>
+                           <div>
+                              <!---->
+                           </div>
                         </div>
                      </div>
                   </aside>
                </div>
             </div>
             <div class="row q-px-xs q-mb-sm  text-grey bg-white justify-around" style="height: 80px; display: none;">
-               <div class=" q-pl-md q-pr-xs q-pt-md justify-around HeaderAccountBtns"><!----><a tabindex="0"
-                     type="button" href="/checkout/cart" role="link"
+               <div class=" q-pl-md q-pr-xs q-pt-md justify-around HeaderAccountBtns">
+                  <!----><a tabindex="0" type="button" href="/checkout/cart" role="link"
                      class="q-btn q-btn-item non-selectable no-outline q-px-md q-btn--flat q-btn--rectangle text-allblue q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"><span
                         class="q-focus-helper"></span><span class="q-btn__wrapper col row q-anchor--skip"><span
                            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
                               aria-hidden="true" role="presentation" class="material-icons q-icon notranslate"
-                              style="font-size: 3.415em;">shopping_cart</i><!----></span></span></a><span><button
-                        tabindex="0" type="button" role="button"
+                              style="font-size: 3.415em;">shopping_cart</i>
+                           <!---->
+                        </span></span></a><span><button tabindex="0" type="button" role="button"
                         class="q-btn q-btn-item non-selectable no-outline text-allblue  LoginBtn q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--wrap q-btn--dense"
                         style="font-size: 22px;"><span class="q-focus-helper"></span><span
                            class="q-btn__wrapper col row q-anchor--skip"><span
                               class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i
                                  aria-hidden="true" role="presentation" class="fa fa-user q-icon notranslate"
                                  style="font-size: 1.415em;">
-                              </i><span>ورود</span></span></span></button><!----><!----></span></div>
+                              </i><span>ورود</span></span></span></button>
+                     <!---->
+                     <!---->
+                  </span>
+               </div>
                <div class="MobileTopSearch0">
-                  <div><label for="f_acd6379c-6015-448d-a2cc-b34c9bb6ad4a"
+                  <div><label for="f_2c29fa49-4418-47cc-92c5-c7b183de5c9c"
                         class="q-field row no-wrap items-start q-select q-field--auto-height q-select--with-input q-select--without-chips q-select--single q-field--filled q-field--rounded q-field--labeled q-validation-component full-width Search SearchBox">
                         <div class="q-field__inner relative-position col self-stretch">
                            <div tabindex="-1" class="q-field__control relative-position row no-wrap">
                               <div class="q-field__prepend q-field__marginal row no-wrap items-center"><i
-                                    aria-hidden="true" role="presentation"
-                                    class="q-pr-none q-mr-none material-icons q-icon notranslate" style="">search</i>
-                              </div>
+                                    aria-hidden="true" role="presentation" class="bi bi-search"></i></div>
                               <div class="q-field__control-container col relative-position row no-wrap q-anchor--skip">
                                  <div class="q-field__native row items-center"><input type="search"
-                                       id="f_acd6379c-6015-448d-a2cc-b34c9bb6ad4a" tabindex="0" autocomplete="off"
+                                       id="f_2c29fa49-4418-47cc-92c5-c7b183de5c9c" tabindex="0" autocomplete="off"
                                        class="q-field__input q-placeholder col SearchInput"></div>
                                  <div class="q-field__label no-pointer-events absolute ellipsis">جستجو در آل‌دیجیتال
                                  </div>
                               </div>
-                              <div class="q-field__append q-field__marginal row no-wrap items-center"></div><!---->
+                              <div class="q-field__append q-field__marginal row no-wrap items-center"></div>
+                              <!---->
                            </div>
                         </div>
-                     </label><!----></div>
+                     </label>
+                     <!---->
+                  </div>
                </div>
             </div>
             <hr role="separator" aria-orientation="horizontal" class="q-separator q-separator q-separator--horizontal">
-            <div class="q-layout__shadow absolute-full overflow-hidden no-pointer-events"></div><!---->
+            <div class="q-layout__shadow absolute-full overflow-hidden no-pointer-events"></div>
+            <!---->
          </header>
          <div class="q-page-container" style="padding-top: 135px;">
             <div
@@ -796,7 +857,7 @@
                                                 class="qribbon__container left  q-pb-none q-pl-md absolute-top-left"
                                                 dir="ltr">
                                                 <div class="qribbon__horizontal--left leaf-bottom decorate-rounded-out"
-                                                   style="--qribbon-text-color:white; --qribbon-background-color:red; --qribbon-leaf-color:var(--q-color-red-4, &quot;undefined&quot;); --qribbon-glow-speed:1.5s; --qribbon-glow-iteration-count:infinite;">
+                                                   style="--qribbon-text-color:white; --qribbon-background-color:red; --qribbon-leaf-color:var(--q-color-red-4, 'undefined'); --qribbon-glow-speed:1.5s; --qribbon-glow-iteration-count:infinite;">
                                                    فروش ویژه
                                                 </div>
                                              </div><!---->
@@ -823,7 +884,7 @@
                                                 style="width: 385px; height: 385px; cursor: zoom-in;">
                                                 <div style="padding-bottom: 103.896%;"></div>
                                                 <div class="q-img__image absolute-full"
-                                                   style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/386576/main.jpg-385x385.png&quot;);">
+                                                   style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/386576/main.jpg-385x385.png');">
                                                 </div>
                                                 <div class="q-img__content absolute-full"></div>
                                              </div>
@@ -895,7 +956,7 @@
                                                    style="width: 40px;">
                                                    <div style="padding-bottom: 100%;"></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: cover; background-position: 50% 50%; background-image: url(&quot;https://www.alldigitall.ir/statics/test7.svg&quot;);">
+                                                      style="background-size: cover; background-position: 50% 50%; background-image: url('https://www.alldigitall.ir/statics/test7.svg');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -911,7 +972,7 @@
                                                    style="width: 40px;">
                                                    <div style="padding-bottom: 100%;"></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: cover; background-position: 50% 50%; background-image: url(&quot;https://www.alldigitall.ir/statics/delivery.svg&quot;);">
+                                                      style="background-size: cover; background-position: 50% 50%; background-image: url('https://www.alldigitall.ir/statics/delivery.svg');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -929,7 +990,7 @@
                                                    style="width: 40px;">
                                                    <div style="padding-bottom: 100%;"></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: cover; background-position: 50% 50%; background-image: url(&quot;https://www.alldigitall.ir/statics/original.svg&quot;);">
+                                                      style="background-size: cover; background-position: 50% 50%; background-image: url('https://www.alldigitall.ir/statics/original.svg');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -1051,7 +1112,7 @@
                                              style="width: 50px; height: 50px;">
                                              <div style="padding-bottom: 94%;"></div>
                                              <div class="q-img__image absolute-full"
-                                                style="background-size: cover; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/386576/main.jpg-50x50.png&quot;);">
+                                                style="background-size: cover; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/386576/main.jpg-50x50.png');">
                                              </div>
                                              <div class="q-img__content absolute-full"></div>
                                           </div>
@@ -1201,85 +1262,7 @@
                               <div class="q-tab-panels q-panel-parent">
                                  <div role="tabpanel" class="q-panel scroll">
                                     <div class="q-tab-panel" label="لوازم مرتبط با این کالا" style="overflow: hidden;">
-                                       <div dir="rtl" class="row overflow-hidden justify-start">
-                                          <div class="  items-end rtl">
-                                             <div
-                                                class="VProduct text-center col q-pa-sm Square q-card q-card--bordered q-card--flat no-shadow">
-                                                <a href="/product/397713/Nillkin-کاور-نیلکین-Super-Frosted-Shield-مناسب-برای-اپل--SE-2020"
-                                                   class="ProductBtn" type="'a'" flat="">
-                                                   <div class="q-pa-none q-card__section q-card__section--vert">
-                                                      <div class="box-ribbon-wrapper">
-                                                         <div class="absolute-left justify-between q-pt-none">
-                                                            <!----><!----><!---->
-                                                         </div>
-                                                      </div>
-                                                      <div role="img"
-                                                         aria-label="Nillkin کاور نیلکین Super Frosted Shield مناسب برای اپل  SE 2020 "
-                                                         class="ProductImage q-img overflow-hidden">
-                                                         <div></div>
-                                                         <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/397713/main.jpg-243x230.png&quot;);">
-                                                         </div>
-                                                         <div class="q-img__content absolute-full"></div>
-                                                      </div>
-                                                   </div>
-                                                   <div
-                                                      class="q-py-sm q-px-none full-width ProductName q-card__section q-card__section--vert">
-                                                      <div dir="rtl"
-                                                         class="text-right text-subtitle2 text-black ellipsis-2-lines PName">
-                                                         کاور نیلکین Super Frosted Shield مناسب برای اپل SE 2020 </div>
-                                                      <!----><!---->
-                                                   </div>
-                                                   <div
-                                                      class="text-left full-width q-pt-lg q-px-none  ss02 q-card__section q-card__section--vert">
-                                                      <!---->
-                                                      <div style="height: 41px;"></div><!----><!----><!---->
-                                                      <div content="2390000" dir="rtl"
-                                                         class="q-pb-none text-left price ">239٬000 تومان<span
-                                                            content="IRR"></span></div><!----><!---->
-                                                   </div>
-                                                </a><!---->
-                                             </div>
-                                          </div>
-                                          <div class="  items-end rtl">
-                                             <div
-                                                class="VProduct text-center col q-pa-sm Square q-card q-card--bordered q-card--flat no-shadow">
-                                                <a href="/product/393199/کاورسیلیکونی-مناسب-برای--یفون-SE-2022-و-iPhone-8-و-iPhone-SE-2020"
-                                                   class="ProductBtn" type="'a'" flat="">
-                                                   <div class="q-pa-none q-card__section q-card__section--vert">
-                                                      <div class="box-ribbon-wrapper">
-                                                         <div class="absolute-left justify-between q-pt-none">
-                                                            <!----><!----><!---->
-                                                         </div>
-                                                      </div>
-                                                      <div role="img"
-                                                         aria-label="   کاورسیلیکونی مناسب برای  یفون SE 2022 و iPhone 8 و iPhone SE 2020"
-                                                         class="ProductImage q-img overflow-hidden">
-                                                         <div></div>
-                                                         <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/Case%20and%20Cover%208/393199/main.jpg-243x230.png&quot;);">
-                                                         </div>
-                                                         <div class="q-img__content absolute-full"></div>
-                                                      </div>
-                                                   </div>
-                                                   <div
-                                                      class="q-py-sm q-px-none full-width ProductName q-card__section q-card__section--vert">
-                                                      <div dir="rtl"
-                                                         class="text-right text-subtitle2 text-black ellipsis-2-lines PName">
-                                                         کاورسیلیکونی مناسب برای آیفون SE 2022 و iPhone 8 و iPhone SE
-                                                         2020</div><!----><!---->
-                                                   </div>
-                                                   <div
-                                                      class="text-left full-width q-pt-lg q-px-none  ss02 q-card__section q-card__section--vert">
-                                                      <!---->
-                                                      <div style="height: 41px;"></div><!----><!----><!---->
-                                                      <div content="940000" dir="rtl"
-                                                         class="q-pb-none text-left price ">94٬000 تومان<span
-                                                            content="IRR"></span></div><!----><!---->
-                                                   </div>
-                                                </a><!---->
-                                             </div>
-                                          </div>
+                                       <div dir="rtl" class="row overflow-hidden justify-between">
                                           <div class="  items-end rtl">
                                              <div
                                                 class="VProduct text-center col q-pa-sm Square q-card q-card--bordered q-card--flat no-shadow">
@@ -1296,7 +1279,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/384666/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/384666/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1335,7 +1318,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/SCREEN%20PROTECTOR%206/384093/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/SCREEN%20PROTECTOR%206/384093/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1380,7 +1363,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/380226/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/380226/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1423,7 +1406,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/Case%20and%20Cover%208/371551/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/Case%20and%20Cover%208/371551/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1462,7 +1445,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/SCREEN%20PROTECTOR%203/364868/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/SCREEN%20PROTECTOR%203/364868/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1507,7 +1490,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/Case%20-%20Cover%206/362416/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/Case%20-%20Cover%206/362416/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1550,7 +1533,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/380225/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/380225/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1568,7 +1551,7 @@
                                                       <div
                                                          class="qribbon__container left  text-center q-pl-none Ribbon-Label">
                                                          <div class="qribbon__horizontal--left-full leaf-bottom"
-                                                            style="--qribbon-text-color:var(--q-color-grey-8, &quot;white&quot;); --qribbon-background-color:var(--q-color-grey-4, &quot;black&quot;); --qribbon-leaf-color:transparent; --qribbon-glow-speed:1.5s; --qribbon-glow-iteration-count:infinite;">
+                                                            style="--qribbon-text-color:var(--q-color-grey-8, 'white'); --qribbon-background-color:var(--q-color-grey-4, 'black'); --qribbon-leaf-color:transparent; --qribbon-glow-speed:1.5s; --qribbon-glow-iteration-count:infinite;">
                                                             <div dir="rtl"
                                                                class="absolute-left vertical-middle q-pa-xs text-left price oldprice">
                                                             </div><span class="text-grey-14 Label">امروز موجود
@@ -1595,7 +1578,7 @@
                                                          class="ProductImage q-img overflow-hidden">
                                                          <div></div>
                                                          <div class="q-img__image absolute-full"
-                                                            style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/380224/main.jpg-243x230.png&quot;);">
+                                                            style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Accessories/COVER-%20CASE%2010/380224/main.jpg-243x230.png');">
                                                          </div>
                                                          <div class="q-img__content absolute-full"></div>
                                                       </div>
@@ -1613,7 +1596,7 @@
                                                       <div
                                                          class="qribbon__container left  text-center q-pl-none Ribbon-Label">
                                                          <div class="qribbon__horizontal--left-full leaf-bottom"
-                                                            style="--qribbon-text-color:var(--q-color-grey-8, &quot;white&quot;); --qribbon-background-color:var(--q-color-grey-4, &quot;black&quot;); --qribbon-leaf-color:transparent; --qribbon-glow-speed:1.5s; --qribbon-glow-iteration-count:infinite;">
+                                                            style="--qribbon-text-color:var(--q-color-grey-8, 'white'); --qribbon-background-color:var(--q-color-grey-4, 'black'); --qribbon-leaf-color:transparent; --qribbon-glow-speed:1.5s; --qribbon-glow-iteration-count:infinite;">
                                                             <div dir="rtl"
                                                                class="absolute-left vertical-middle q-pa-xs text-left price oldprice">
                                                             </div><span class="text-grey-14 Label">امروز موجود
@@ -2596,7 +2579,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                                                    class="ProductImage q-img overflow-hidden">
                                                    <div></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/398815/main.jpg-243x230.png&quot;);">
+                                                      style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/398815/main.jpg-243x230.png');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -2634,7 +2617,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                                                    class="ProductImage q-img overflow-hidden">
                                                    <div></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/390929/main.jpg-243x230.png&quot;);">
+                                                      style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/390929/main.jpg-243x230.png');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -2672,7 +2655,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                                                    class="ProductImage q-img overflow-hidden">
                                                    <div></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/380507/main.jpg-243x230.png&quot;);">
+                                                      style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/380507/main.jpg-243x230.png');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -2710,7 +2693,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                                                    class="ProductImage q-img overflow-hidden">
                                                    <div></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/380507/main.jpg-243x230.png&quot;);">
+                                                      style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/380507/main.jpg-243x230.png');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -2748,7 +2731,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                                                    class="ProductImage q-img overflow-hidden">
                                                    <div></div>
                                                    <div class="q-img__image absolute-full"
-                                                      style="background-size: contain; background-position: 50% 50%; background-image: url(&quot;https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/377546/main.jpg-243x230.png&quot;);">
+                                                      style="background-size: contain; background-position: 50% 50%; background-image: url('https://image.alldigitall.ir/thumb/catalog/Products-Pic/Mobile/377546/main.jpg-243x230.png');">
                                                    </div>
                                                    <div class="q-img__content absolute-full"></div>
                                                 </div>
@@ -2942,7 +2925,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                </div><!----><!---->
                <div class="INNERLOADING"></div>
             </div>
-            <div class="full-width Footer" style=""><!---->
+            <div class="full-width Footer"><!---->
                <div>
                   <div dir="rtl"
                      class="footer_overlay  q-mt-sm full-width bg-cream row invert justify-around  items-center">
@@ -2962,7 +2945,7 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
                                  height="100px" width="92px" contain=""></div>
                            <div class="col self-center" style="animation-duration: 1s;"><img referrerpolicy="origin"
                                  id="rgvjapfujzpewlaosizp"
-                                 onclick="window.open(&quot;https://logo.samandehi.ir/Verify.aspx?id=35749&amp;p=xlaodshwjyoeaodspfvl&quot;, &quot;Popup&quot;,&quot;toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30&quot;)"
+                                 onclick="window.open('https://logo.samandehi.ir/Verify.aspx?id=35749&amp;p=xlaodshwjyoeaodspfvl', 'Popup','toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30')"
                                  alt="logo-samandehi"
                                  src="https://logo.samandehi.ir/logo.aspx?id=35749&amp;p=qftiujynyndtshwlbsiy"
                                  style="cursor: pointer; width: 92px; height: 100px; display: inline-block;"></div>
@@ -3306,11 +3289,6 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
          </div>
       </div>
    </div>
-<<<<<<< HEAD
-   <script src="js/vendor.js"></script>
-   <script src="js/app.js"></script>
-=======
->>>>>>> a6f9b16e53e4f514f7abbfec5db83c73b8f77190
 
    <div class="q-notifications">
       <div class="q-notifications__list q-notifications__list--top fixed column no-wrap items-start"></div>
@@ -3325,6 +3303,13 @@ Name="Grid Table 1 Light Accent 1"></w:LsdException>
       </div>
       <div class="q-notifications__list q-notifications__list--center fixed column no-wrap flex-center"></div>
    </div>
+   <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+   integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ ></script>
+ <script src="js/custom.js"></script>
 </body>
 
 </html>
